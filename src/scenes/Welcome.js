@@ -27,7 +27,7 @@ export default class Welcome extends Component {
                         <Text>To get started, vist the documentation over at Github! This page is an example of the Card component.</Text>
                     </Card.Body>
                     <Card.Actions position="right">
-                        <Button primary={theme} text="GO TO GITHUB" onPress={() => IntentAndroid.openURL('https://github.com/react-native-material-design/react-native-material-design')} />
+                        <Button primary={theme} text="GO TO GITHUB" onPress={() => IntentAndroid.openURL('https://github.com/mac00048/react-native-material-design')} />
                     </Card.Actions>
                 </Card>
                 <Card>
